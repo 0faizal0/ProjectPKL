@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="9pt"
+    android:orientation="horizontal"
+    tools:context=".MainMenu">
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnprofile"
+                android:layout_centerHorizontal="true"
+                android:text="PROFILE"
+                android:textColor="@color/lingkaranprofile"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/btnprofile"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/lingkaranprofile"
+                android:drawableTop="@drawable/ic_profile"
+                android:indeterminate="false"
+                android:padding="13dp"
+                android:textStyle="bold"/>
+                //android:onClick="onclick"
+                tools:ignore="OnClick" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnemail"
+                android:layout_centerHorizontal="true"
+                android:text="EMAIL"
+                android:textColor="@color/lingkaranemail"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/btnemail"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/lingkaranemail"
+                android:drawableTop="@drawable/ic_email"
+                android:indeterminate="false"
+                android:padding="16dp"
+                android:textStyle="bold"/>
+                //android:onClick="onclick"
+                tools:ignore="OnClick" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnsetting"
+                android:layout_centerHorizontal="true"
+                android:text="SETTING"
+                android:textColor="@color/lingkaransetting"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/btnsetting"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/lingkaransetting"
+                android:drawableTop="@drawable/ic_setting"
+                android:indeterminate="false"
+                android:padding="16dp"
+                android:textStyle="bold"/>
+                //android:onClick="onclick"
+                tools:ignore="OnClick" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
+
+
